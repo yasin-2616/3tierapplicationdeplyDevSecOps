@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yasin26/devopsexamapp:latest"   // ✅ FIXED
+        DOCKER_IMAGE = "yasin26/devopsexamapp:latest"   
         SCANNER_HOME = tool 'sonar-scanner'
     }
 
